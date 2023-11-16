@@ -1,10 +1,3 @@
-### A Pluto.jl notebook ###
-# v0.19.32
-
-using Markdown
-using InteractiveUtils
-
-# ╔═╡ da2d87f0-83cf-11ee-16f4-592093153c03
 begin
 	# Находим объем наземной части муравейника
 	r= 0.26
@@ -35,6 +28,3 @@ begin
     X_rounded = round(X)
 	println("число муравьёв, которые живут в данном муравейнике:", X_rounded)
 end
-
-# ╔═╡ Cell order:
-# ╠═da2d87f0-83cf-11ee-16f4-592093153c03
