@@ -1,4 +1,4 @@
-WITH Calculations AS (
+WITH CalculationsAnts AS (
     SELECT 
         ((3.14 * 0.12)/6) * ((0.2028) + power(0.12, 2)) AS Vn,
         ((3.14 * 0.12)/6) * ((0.2028) + power(0.12, 2))*2/3 AS Vp,
@@ -14,4 +14,4 @@ SELECT
     Na,
     Vna,
     ROUND(X, 0) AS Rounded_X
-FROM Calculations;
+FROM CalculationsAnts;
