@@ -12,7 +12,7 @@ class Program
 
         Console.WriteLine("Общий объем муравейника: " + Vreal);
 
-        // Определим размер выборки
+        // Определим размерность выборки
         double[] measurements = { 0.003, 0.003, 0.003, 0.003, 0.01, 0.003, 0.004, 0.003, 0.004, 0.003 };
         double Na = 0;
         foreach (var measurement in measurements)
